@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// Cleaned up: No usage of PUBLIC_URL here (ensuring no build error source)
+// If any references were found, replace PUBLIC_URL with process.env.PUBLIC_URL as appropriate.
+
 function App() {
   return (
     <div className="app">
